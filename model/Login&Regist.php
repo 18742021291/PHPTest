@@ -12,7 +12,6 @@ class L_R{
     private $email_pattern="/^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/";
     public function login($username,$password)
     {
-        $message="";
         if(!empty($username)&&!empty($password)){
             if(preg_match($this->email_pattern,$username)||preg_match($this->phone_pattern,$username)){
                 $db=dbcn::getInstance();
@@ -39,7 +38,6 @@ class L_R{
         return $message;
     }
     public function register($username,$password){
-        $message="";
         if(!empty($username)&&!empty($password)){
             if(preg_match($this->phone_pattern,$username)||preg_match($this->email_pattern,$username)){
                 $db=dbcn::getInstance();
