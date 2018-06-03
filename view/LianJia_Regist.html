@@ -1,0 +1,45 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>链家用户注册页面</title>
+</head>
+<body>
+<form action="" method="post">
+    手机号或者邮箱: <input type="text" id="username" placeholder="请输入用户名"><br>
+    密码: <input type="password" placeholder="请输入密码" id="password"><br>
+    <input type="submit"  id="submit" value="提交">
+</form>
+</body>
+</html>
+<script type="text/javascript" src="../script/jquery.min.js"></script>
+<script type="text/javascript">
+    $('#submit').click(function (){
+        var username=$('#username').val();
+        var password=$("#password").val();
+        if(username!=""&&password!=""&&((/([\w\-]+\@[\w\-]+\.[\w\-]+)/.test(username))||(/^1[3|4|5|8][0-9]\d{4,8}$/.test(username))))
+        {
+            $.ajax({
+                type:'POST',
+                url:'../router/regist_Check.php',
+                dataType:'JSON',
+                data:{
+                    username:username,
+                    password:password,
+                },
+                success:function (result) {
+                    switch(result){
+                        case 1:
+                            alert("该用户名已被注册!");
+                            break;
+                        case 2:
+                            alert("注册成功!");
+                            window.location.href="./LianJia_Login.php";
+                            break;
+                    }
+                },
+        })
+        }else{
+            alert("输入非法,请重新输入");
+        }
+    } )
+</script>
