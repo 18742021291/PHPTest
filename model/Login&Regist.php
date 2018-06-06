@@ -38,7 +38,6 @@ class L_R{
         echo json_encode($array,JSON_UNESCAPED_UNICODE);
     }
     public function register($username,$password){
-        $message="";
         if(!empty($username)&&!empty($password)){
             if(preg_match($this->phone_pattern,$username)||preg_match($this->email_pattern,$username)){
                 $db=dbcn::getInstance();
