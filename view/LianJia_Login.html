@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -23,9 +24,11 @@
             data:{
                 username:username,
                 password:password,
-                operate:"login",
+                operate:1,
             },
             success:function(result){
+                console.log(JSON.stringify(result));
+                console.log(result.message);
                 switch(result.code){
                     case 1:
                         alert(result.message);
@@ -37,6 +40,15 @@
                         break;
                 }
             },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                // 状态码
+                console.log(XMLHttpRequest.status);
+                // 状态
+                console.log(XMLHttpRequest.readyState);
+                // 错误信息
+                console.log(textStatus);
+            }
+
         })
-    } )
+    })
 </script>

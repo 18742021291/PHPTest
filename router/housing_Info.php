@@ -11,5 +11,5 @@ while($row=($result->fetch())){
     $value=array("Id"=>$row['Id'],"city_code"=>$row['city_code'],"house_no"=>$row['house_no'],"assignee_name"=>$row['assignee_name'],"address"=>$row['address'],"create_at"=>$row['created_at'],"count"=>$count,"totalPage"=>$totalPage);
     $array[] = $value;
 }
-echo json_encode($array);
+echo json_encode($array,JSON_UNESCAPED_UNICODE);
 ?>

@@ -3,6 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="3d4332bb-14c4-4bd6-89e0-1eea7c50b3da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Login&amp;Regist.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/Login&amp;Regist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/LianJia_User.php" beforeDir="false" afterPath="$PROJECT_DIR$/router/LianJia_User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/housing_Info.php" beforeDir="false" afterPath="$PROJECT_DIR$/router/housing_Info.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/login_Check.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/mac.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/phpInfo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/regist_Check.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/LianJia_FrontPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/LianJia_FrontPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/LianJia_Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/LianJia_Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/LianJia_Regist.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/LianJia_Regist.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,21 +24,96 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="LianJia_User.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/router/LianJia_User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="288">
+              <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="housing_Info.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="readInfoToDB.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script/readInfoToDB.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="redis.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script/redis.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sessionTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script/sessionTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LianJia_Login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/LianJia_Login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LianJia_Regist.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/LianJia_Regist.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LianJia_HousingInfo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/LianJia_HousingInfo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="122" column="10" lean-forward="true" selection-start-line="122" selection-start-column="10" selection-end-line="122" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LianJia_FrontPage.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/view/LianJia_FrontPage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="housing_Info.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/router/housing_Info.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
               <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="housing_Buy.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/router/housing_Buy.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -68,7 +155,6 @@
         <option value="$PROJECT_DIR$/readInfoToDB.php" />
         <option value="$PROJECT_DIR$/registercheck.php" />
         <option value="$PROJECT_DIR$/show.php" />
-        <option value="$PROJECT_DIR$/router/housing_Info.php" />
         <option value="$PROJECT_DIR$/router/login_Check.php" />
         <option value="$PROJECT_DIR$/router/regist_Check.php" />
         <option value="$PROJECT_DIR$/script/conect_mysql.php" />
@@ -81,19 +167,21 @@
         <option value="$PROJECT_DIR$/script/test.php" />
         <option value="$PROJECT_DIR$/script/redis.php" />
         <option value="$PROJECT_DIR$/router/housing_Buy.php" />
-        <option value="$PROJECT_DIR$/view/LianJia_HousingInfo.html" />
         <option value="$PROJECT_DIR$/view/LianJia_Login.php" />
         <option value="$PROJECT_DIR$/model/MyDB.php" />
         <option value="$PROJECT_DIR$/router/login.php" />
-        <option value="$PROJECT_DIR$/view/LianJia_FrontPage.html" />
         <option value="$PROJECT_DIR$/script/phpInfo.php" />
         <option value="$PROJECT_DIR$/view/LianJia_UserInfo.html" />
         <option value="$PROJECT_DIR$/view/LianJia_HousingInfo.php" />
         <option value="$PROJECT_DIR$/router/LianJia_Login.php" />
         <option value="$PROJECT_DIR$/router/LianJia_UserInfo.php" />
+        <option value="$PROJECT_DIR$/view/LianJia_HousingInfo.html" />
+        <option value="$PROJECT_DIR$/router/housing_Info.php" />
+        <option value="$PROJECT_DIR$/view/LianJia_FrontPage.html" />
         <option value="$PROJECT_DIR$/model/Login&amp;Regist.php" />
         <option value="$PROJECT_DIR$/view/LianJia_Login.html" />
         <option value="$PROJECT_DIR$/view/LianJia_Regist.html" />
+        <option value="$PROJECT_DIR$/router/LianJia_User.php" />
       </list>
     </option>
   </component>
@@ -118,6 +206,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,11 +214,30 @@
               <item name="PHPTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHPTest" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PHPTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHPTest" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHPTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHPTest" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHPTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHPTest" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHPTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHPTest" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,6 +331,7 @@
       <workItem from="1528014619298" duration="972000" />
       <workItem from="1528094972691" duration="247000" />
       <workItem from="1528197722880" duration="7641000" />
+      <workItem from="1528263921628" duration="3138000" />
     </task>
     <task id="LOCAL-00001" summary="adding">
       <created>1528013405561</created>
@@ -238,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528205838923</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="前后端分离">
+      <created>1528264029955</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1528264029955</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -247,23 +363,21 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146432000" />
+    <option name="totallyTimeSpent" value="149570000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32919255" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32868218" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32763976" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -273,6 +387,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32763976" />
+      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.32919255" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,52 +515,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="1254" selection-start-line="1" selection-start-column="1254" selection-end-line="1" selection-end-column="1254" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/script/conect_mysql.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/readInfoToDB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/redis.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/sessionTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -466,13 +540,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/LianJia_FrontPage.php" />
     <entry file="file://$PROJECT_DIR$/50x.html" />
-    <entry file="file://$PROJECT_DIR$/script/phpInfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/MyDB.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
@@ -480,29 +547,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/router/LianJia_Login.php">
+    <entry file="file://$PROJECT_DIR$/router/LianJia_Login.php" />
+    <entry file="file://$PROJECT_DIR$/view/LianJia_UserDetail.html" />
+    <entry file="file://$PROJECT_DIR$/script/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="72">
+          <caret line="1" column="303" selection-start-line="1" selection-start-column="303" selection-end-line="1" selection-end-column="303" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/LianJia_UserDetail.html">
+    <entry file="file://$PROJECT_DIR$/model/Login&amp;Regist.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state relative-caret-position="-301">
+          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/router/housing_Buy.php">
+    <entry file="file://$PROJECT_DIR$/script/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        <state relative-caret-position="203">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/script/login_Check.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -511,20 +577,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/LianJia_FrontPage.html">
+    <entry file="file://$PROJECT_DIR$/script/mac.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="126">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/LianJia_HousingInfo.html">
+    <entry file="file://$PROJECT_DIR$/script/phpInfo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="68" column="31" lean-forward="true" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+        <state relative-caret-position="126">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/readInfoToDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -535,31 +605,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/LianJia_Regist.html">
+    <entry file="file://$PROJECT_DIR$/script/redis.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        <state relative-caret-position="198">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/Login&amp;Regist.php">
+    <entry file="file://$PROJECT_DIR$/script/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        <state relative-caret-position="144">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/sessionTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/LianJia_Login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        <state relative-caret-position="145">
+          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/LianJia_Regist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/router/LianJia_User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        <state relative-caret-position="288">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -567,6 +651,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/router/housing_Buy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/LianJia_HousingInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="122" column="10" lean-forward="true" selection-start-line="122" selection-start-column="10" selection-end-line="122" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/LianJia_FrontPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
