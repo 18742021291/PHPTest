@@ -10,7 +10,7 @@ require 'MyDB.php';
 class L_R{
     private $phone_pattern="/^1[34578]\d{9}$/";
     private $email_pattern="/^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/";
-    public function login($username,$password)
+    public function login($username,$password,$check)
     {
         if(!empty($username)&&!empty($password)){
             if(preg_match($this->email_pattern,$username)||preg_match($this->phone_pattern,$username)){
@@ -19,10 +19,16 @@ class L_R{
                 $result=$db->query($sql);
                 if($result->rowCount()>0){
                     $row=$result->fetch();
+                    $User['id']=$row['id'];
+                    $User['username']=$row['username'];
+                    $User['password']=$row['password'];
+                    $_SESSION['UserInfo']=$User;
+                    if($check==1){
+                        $value=serialize($User);
+                        $str=md5($value);
+                        setrawcookie('login',$str,time()+60*60*24*7);
+                    }
                     $array=array("code"=>"1","message"=>"登录成功");
-                    $_SESSION['userId']=$row['id'];
-                    $_SESSION['password']=$row['password'];
-                    $_SESSION['username']=$row['username'];
                 }
                 else{
                     $array=array("code"=>"2","message"=>"密码错误");
@@ -38,14 +44,15 @@ class L_R{
         echo json_encode($array,JSON_UNESCAPED_UNICODE);
     }
     public function register($username,$password){
+
         if(!empty($username)&&!empty($password)){
             if(preg_match($this->phone_pattern,$username)||preg_match($this->email_pattern,$username)){
                 $db=dbcn::getInstance();
                 $sql="select * from user where username='{$username}'";
                 $row=$db->query($sql)->rowCount();
                 if($row==0){
-                    $sql="insert into user (username,password)value ('{$username}','{$password}')";
-                    $db->query($sql);
+                    $sql1="insert into user (username,password)value ('{$username}','{$password}')";
+                    $db->query($sql1);
                     $array=["code"=>"1","message"=>"用户名注册成功"];
                 }else{
                     $array=["code"=>"2","message"=>"用户已存在!"];
