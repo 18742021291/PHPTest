@@ -12,4 +12,3 @@ while($row=($result->fetch())){
     $array[] = $value;
 }
 echo json_encode($array,JSON_UNESCAPED_UNICODE);
-?>
