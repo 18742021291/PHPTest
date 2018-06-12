@@ -5,7 +5,7 @@
     <title>链家用户注册页面</title>
 </head>
 <body>
-<form action="" method="post">
+<form>
     手机号或者邮箱: <input type="text" id="username" placeholder="请输入用户名"><br>
     密码: <input type="password" placeholder="请输入密码" id="password"><br>
     <input type="submit"  id="submit" value="提交">
@@ -27,6 +27,7 @@
                 operate: 2,
             },
             success: function (result) {
+                console.log(result);
                 switch (result.code) {
                     case 1:
                         alert(result.message);
