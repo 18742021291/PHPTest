@@ -46,17 +46,17 @@ class L_R{
                 if($row==0){
                     $sql="insert into user (username,password)value ('{$username}','{$password}')";
                     $db->query($sql);
-                    $array=["code"=>"1","message"=>"用户名注册成功"];
+                    $array=array("code"=>"1","message"=>"用户名注册成功");
                 }else{
-                    $array=["code"=>"2","message"=>"用户已存在!"];
+                    $array=array("code"=>"2","message"=>"用户已存在!");
                 }
             }
             else{
-                $array=["code"=>"3","message"=>"用户名格式错误,重新输入"];
+                $array=array("code"=>"3","message"=>"用户名格式错误,重新输入");
             }
         }
         else{
-            $array=["code"=>"4","message"=>"用户名密码为空"];
+            $array=array("code"=>"4","message"=>"用户名密码为空");
         }
         echo  json_encode($array,JSON_UNESCAPED_UNICODE);
     }

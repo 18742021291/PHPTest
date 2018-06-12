@@ -1,4 +1,12 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: asus
+ * Date: 2018/6/3
+ * Time: 13:26
+ * description:负责处理用户购买房产的处理,处理结果返回给前端LianJia_HousingInfo.html
+ * 利用数据库事务特性以及悲观锁for update来控制并发读写的风险
+ */
 require "../control/validate.php";
 require "../model/MyDB.php";
 $db=dbcn::getInstance();

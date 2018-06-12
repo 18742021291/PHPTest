@@ -4,6 +4,7 @@
  * User: asus
  * Date: 2018/6/3
  * Time: 13:26
+ * description:负责处理登录注册并返回结果给前端LianJia_Login.html or LianJia_Regist.html
  */
 require "../model/Login&Regist.php";
 $User=new L_R();
